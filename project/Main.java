@@ -1,5 +1,8 @@
 public class Main { 
     public static void main(String[] args) {
+        Pizza pizza = new Pizza(new String[] {"Pepperoni", "Mushrooms", "Grass"}, "Red sauce", new String[] {"Mozzerlla", "Cheddar", "Munster"}, "Thin crust", 'l');
+
+        System.out.println(pizza.getPizzaCalories());
         // You can create variables and objects wihthout giving them a value
         Animal globert;
         int stinkMeter;
